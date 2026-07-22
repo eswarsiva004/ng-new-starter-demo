@@ -20,4 +20,8 @@ describe('App', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-new-starter');
   });
+
+  it('purposely fails', () => {
+    expect(1).toEqual(100);
+  })
 });
