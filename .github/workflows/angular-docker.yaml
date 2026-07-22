@@ -1,4 +1,4 @@
-name: Angular CI and Containerization
+name: Angular CI and Containerization.
 
 on:
   push:
